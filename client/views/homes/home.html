@@ -1,0 +1,43 @@
+<template name="home">
+	<div class="container">
+		<div class="row">
+			<h1>Привіт! Мене звати Медвідь Іван!</h1>
+			<div class="col-md-8">
+				<h2>{{title}}</h2>
+				<table class="table table-striped">
+ 					<tbody>
+ 						<tr>
+ 							<td>
+ 								Навчання
+ 							</td>
+ 							<td>
+ 								<p>{{education}}</p>
+
+ 							</td>
+ 						</tr>
+ 						<tr>
+ 							<td>
+ 								Мови
+ 							</td>
+ 							<td>
+ 								<p>Знайомий з такими мовами програмування:</p>
+ 								<p>{{languages}}</p>
+ 							</td>
+ 						</tr>
+ 						<tr>
+ 							<td>
+ 								Плани на майбутнє
+ 							</td>
+ 							<td>
+ 								<p>{{plans}}</p>
+ 							</td>
+ 						</tr>
+ 					</tbody>
+				</table>
+			</div>
+			<div class="col-md-4">
+				<img src="{{src}}" class="thumbnail" alt="">
+			</div>
+		</div>
+	</div>
+</template>
